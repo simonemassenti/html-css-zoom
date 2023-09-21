@@ -18,13 +18,13 @@ body {
 /* wrapper */
 .wrapper {
     background-color: black;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 /* row */
 .row {
     width: 90%;
-    height: 85vh;
+    height: 80vh;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -35,6 +35,7 @@ body {
 /* card */
 .card {
     background-image: url('../img/profile.jpg');
+    background-position: center;
     width: calc(98% / 7);
     height: calc(98% / 5);
     position: relative;
@@ -49,3 +50,62 @@ body {
     color: white;
 }
 
+.view {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 0.7rem;
+}
+
+.view-option {
+    color: white;
+    margin: 0.2rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: .3rem;
+    border-radius: .3rem;
+}
+
+/* FOOTER */
+footer {
+    height: 9vh;
+    width: 100%;
+    background-color: rgb(32, 30, 30);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.flexer {
+    display: flex;
+}
+
+.option {
+    text-align: center;
+    padding: .5rem;
+    display: block;
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 1.5rem;
+}
+
+.angle {
+    line-height: 9vh;
+    margin-right: .5rem;
+}
+
+.green {
+    color: green;
+}
+
+.footer-right {
+    background-color: rgb(74, 73, 73);
+    color: red;
+    padding: 1.5rem;
+    font-weight: 300;
+}
