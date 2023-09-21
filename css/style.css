@@ -7,3 +7,45 @@
 img {
     max-width: 100%;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: .8rem;
+}
+
+/* MAIN */
+/* wrapper */
+.wrapper {
+    background-color: black;
+    padding: 2rem;
+}
+
+/* row */
+.row {
+    width: 90%;
+    height: 85vh;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+/* card */
+.card {
+    background-image: url('../img/profile.jpg');
+    width: calc(98% / 7);
+    height: calc(98% / 5);
+    position: relative;
+    margin-bottom: .5rem;
+}
+
+.name {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: .1rem;
+    color: white;
+}
+
