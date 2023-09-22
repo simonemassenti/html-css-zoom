@@ -28,7 +28,6 @@ body {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     overflow-y: auto;
 }
 
@@ -36,10 +35,11 @@ body {
 .card {
     background-image: url('../img/profile.jpg');
     background-position: center;
-    width: calc(98% / 7);
+    width: calc(95% / 7);
     height: calc(98% / 5);
     position: relative;
     margin-bottom: .5rem;
+    margin-left: calc(5% / 7);
 }
 
 .name {
